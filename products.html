@@ -66,112 +66,36 @@
           </li>
         </ul>
       </div>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <style>
-        body {
-          font-family: Raleway;
-        }
-        
-        * {
-          box-sizing: border-box;
-        }
-        
-        .openBtn {
-          background: #f1f1f1;
-          border: none;
-          padding: 10px 12px;
-          font-size: 14px;
-          cursor: pointer;
-        }
-        
-        .openBtn:hover {
-          background: #bbb;
-        }
-        
-        .overlay {
-          height: 100%;
-          width: 100%;
-          display: none;
-          position: fixed;
-          z-index: 1;
-          top: 0;
-          left: 0;
-          background-color: rgb(0,0,0);
-          background-color: rgba(0,0,0, 0.9);
-        }
-        
-        .overlay-content {
-          position: relative;
-          top: 46%;
-          width: 80%;
-          text-align: center;
-          margin-top: 30px;
-          margin: auto;
-        }
-        
-        .overlay .closebtn {
-          position: absolute;
-          top: 20px;
-          right: 45px;
-          font-size: 60px;
-          cursor: pointer;
-          color: white;
-        }
-        
-        .overlay .closebtn:hover {
-          color: #ccc;
-        }
-        
-        .overlay input[type=text] {
-          padding: 14px;
-          font-size: 17px;
-          border: none;
-          float: left;
-          width: 80%;
-          background: white;
-        }
-        
-        .overlay input[type=text]:hover {
-          background: #f1f1f1;
-        }
-        
-        .overlay button {
-          float: left;
-          width: 20%;
-          padding: 14px;
-          background: #e6a756;
-          font-size: 17px;
-          border: none;
-          cursor: pointer;
-        }
-        
-        .overlay button:hover {
-          background: #e6a756;
-        }
-        </style>
-        <body>
-        
-        <div id="myOverlay" class="overlay">
-          <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
-          <div class="overlay-content">
-            <form action="/action_page.php">
-              <input type="text" placeholder="Search.." name="search">
-              <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
-          </div>
-        </div>
-        
-        <button class="openBtn" onclick="openSearch()">Search Here</button>
-        
-        <script>
-        function openSearch() {
-          document.getElementById("myOverlay").style.display = "block";
-        }
-        
-        function closeSearch() {
-          document.getElementById("myOverlay").style.display = "none";
-        }
-        </script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+                                     
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Pizzaciouss
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Aloha Chicken</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">BBQ Chicken</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Chicken Confidental</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Chicken Pepperoni</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Chickensaurus</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Extravaganza</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Flaming Tuna</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Hawaiian Chicken</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Meat Mania</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Meatasaurus</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Pepperoni Beef</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Prawn Sensation</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Seafood Delight</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Signature Quattro Beef</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Signature Quattro Chicken</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Simply Cheese</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Smocky Beef and Chicken</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Spicy Sausage</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Tropical Sambal Prawn</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Vegie Galore</a></li>
+      
+    </ul>
     </div>
   </nav>
 
