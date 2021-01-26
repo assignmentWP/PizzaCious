@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Group Assignment WP</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/business-casual.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+        <h1 class="site-heading text-center text-white d-none d-lg-block">
+          <span class="site-heading-upper text-primary mb-3">Get Your Order Now!</span>
+          <span class="site-heading-lower">Hurry or you'll stay Hungry!</span>
+        </h1>
+      
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+          <div class="container-fluid">
+            <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Order</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item px-lg-4">
+                  <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item px-lg-4">
+                  <a class="nav-link text-uppercase text-expanded" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item px-lg-4">
+                  <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
+                </li>
+                <li class="nav-item px-lg-4">
+                  <a class="nav-link text-uppercase text-expanded" href="store.html">Store</a>
+                </li>
+                <li class="nav-item px-lg-4">
+                  <a class="nav-link text-uppercase text-expanded" href="deals.html">Hot Deals!</a>
+                </li>
+                <li class="nav-item active px-lg-4">
+                  <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item px-lg-4">
+                  <a class="nav-link text-uppercase text-expanded" href="faq.html">FAQ</a>
+                </li>
+                <li class="nav-item px-lg-4">
+                    <a class="nav-link text-uppercase text-expanded" href="pizza order.html">Order</a>
+                </li>
+                <li class="nav-item px-lg-4">
+                  <a class="nav-link text-uppercase text-expanded" href="login.html">Log In</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      
+        <section class="page-section">
+          <div class="container">
+            <div class="row">
+            <style>
+              * {
+                box-sizing: border-box;
+              }
+              body {
+                font-family: Raleway;
+              }
+              
+              input[type=text], select, textarea {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #e6a756;
+                border-radius: 4px;
+                resize: vertical;
+              }
+              
+              label {
+                padding: 12px 12px 12px 0;
+                display: inline-block;
+              }
+              
+              input[type=submit] {
+                background-color: rgba(47, 23, 15, 0.9);
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                float: right;
+              }
+              
+              input[type=submit]:hover {
+                background-color: #e6a756;
+              }
+              
+              .container {
+                border-radius: 5px;
+                background-color: #e6a756;
+                padding: 20px;
+              }
+              
+              .col-25 {
+                float: left;
+                width: 25%;
+                margin-top: 6px;
+              }
+              
+              .col-75 {
+                float: left;
+                width: 75%;
+                margin-top: 6px;
+              }
+              
+              /* Clear floats after the columns */
+              .row:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+              
+              /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+              @media screen and (max-width: 600px) {
+                .col-25, .col-75, input[type=submit] {
+                  width: 100%;
+                  margin-top: 0;
+                }
+              }
+              </style>
+
+<div class="container">
+<h1 style="text-align: center; font-family:'Sofia'; text-shadow: 3px 3px 3px #ababab; font-style: italic ; font-size: 50px; color: #000000;">Order Pizza!</h1> <br><br>
+<form method="POST" action="mailto:pizza@pizza.com" name="pizza" id="pizza">
+  <p><strong>Select the pizza size:</strong><br />
+    <input type="radio" value="big" name="size" id="size" tabindex="1" />Big<br />
+    <input type="radio" value="medium" name="size" id="size" tabindex="2" />Medium<br />
+    <input type="radio" value="small" name="size" id="size" tabindex="3" />Small
+  </p>
+  <p>
+    <strong>Select the crust type:</strong><br />
+      <select name="crust" id="crust" size="1">
+        <option value="deep dish" tabindex="4">Deep Dish</option>
+        <option value="hand-tossed" tabindex="5">Hand-Tossed</option>
+        <option value="thin &amp; crispy" tabindex="6">Thin &amp; Crispy</option>
+      </select>
+   </p>
+   <p>
+     <strong>Select the filler:</strong><br />
+       <input type="checkbox" name="toppings" id="toppings" value="sausages" tabindex="7" />Sausages<br />
+       <input type="checkbox" name="pepper" id="toppings" value="sausages" tabindex="8" />Pepper<br />
+       <input type="checkbox" name="mushrooms" id="toppings" value="sausages" tabindex="9" />Mushrooms<br />
+   </p>
+   <p>
+    <strong>Quantity:</strong><input type="text" name="name" id="name" size="20" tabindex="10" /><br />
+  </p>
+   <p>
+     <strong>Name:</strong><input type="text" name="name" id="name" size="20" tabindex="10" /><br />
+     <strong>Phone:</strong><input type="text" name="phone" id="phone" size="20" tabindex="11" /><br />
+     <textarea rows="2" cols="30" name="message" id="message" tabindex="12" />Message:</textarea>
+   </p>
+   <p>
+     <input type="submit" value="Send" name="submit" id="submit" />
+     <input type="reset" value="Reset" name="reset" id="reset" />
+   </p>
+ </form>
+  </div>
+  </div>
+
+</div>
+</section>
+
+  <footer class="footer text-faded text-center py-5">
+    <div class="container-fluid">
+      <p class="m-0 small">Copyright &copy; Your Website 2020</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
